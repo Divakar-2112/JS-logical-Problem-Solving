@@ -1,3 +1,4 @@
+        //  Logical Problem Solving -1
 // 1. For the array [20, 50, 90, 12, 3], find the largest value.
 
         // let array =[20, 50, 90, 12, 3];
@@ -11,7 +12,7 @@
         // ===============================================================================================
 
         // 2. In the array [20, 50, 90, 12, 3], determine the second largest value.
-            // let array =[70, 90, 50, 12, 3];
+            // let array =[70, 90,90,70,50, 12, 3];
             // let largest = 0;
             // let secondLargest = 0;
             // for(let i=0;i<array.length;i++){
@@ -184,5 +185,115 @@
 
         //    let value = 'engineering';
         //    console.log(count(value));
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        //  Logical Problem Solving -2
+
+// 1.flatten the array
+
+// let x = [1,[2,3],[4,5]];
+// let newarr = [];
+
+// for (let arr of x) {
+//     if (Array.isArray(arr)) {
+//         newarr = [...newarr, ...arr];
+//     } else {
+//         newarr = [...newarr, arr];
+//     }
+// }
+// console.log(newarr);
+
+// =========================================================================================
+// 2.Captalize the first letter of each word.
+
+// let str = "hello world"
+// let result = "";
+// if (str[0] !== "") {
+//   result += str[0].toUpperCase();
+// }
+// for(let i=1;i<str.length;i++){
+//     if(str[i-1] == " " && str[i]!==" "){
+//       result += str[i].toUpperCase();
+//     }
+//     else{
+//       result += str[i];
+//     }
+// }
+// console.log(result);
+ 
+// =============================================================================================================
+// 3.longest word in the sentence
+// let sentences = "time is percious in the world";
+// let temp=[];
+// let longestText = [];
+// let result = "";
+// for(let i=0;i<sentences.length;i++){
+//   if(sentences[i]!== " "){
+//     temp[temp.length] = sentences[i]
+    
+//   }
+//   else{
+//     if(temp.length > longestText.length){
+//       longestText = temp;
+//       console.log(longestText);
+      
+//     }
+//     temp = [];
+    
+//   }
+// }
+
+// for(let i=0;i<longestText.length;i++){
+//   result += longestText[i]
+  
+// }
+// console.log(result);
+
+// ===============================================================================================================================
+// 4.valid parathesis
+
+
+// ====================================================================================================================================
+// 5. ['bat','tab','pat','tap','cat']
+
+// let x =  ['bat','tab','pat','tap','cat'];
+
+
+
+// ==================================================================================================================================================
+// 6. junk array 
+
+// let splitNumber = 3;
+// let arr = [1,2,3,4,5,4,6,7,8,9]
+// let temp = []
+// let newArray = []
+// let count = 0;
+
+// for(let i=0;i<arr.length;i++){
+//   temp[count]=arr[i]
+//   count++
+  
+//   if(count == splitNumber || i == arr.length-1){
+//     newArray[newArray.length]=temp
+//     temp = []
+//     count = 0;
+//   }
+// }
+// console.log(newArray);
+
+// ===============================================================================================================================
+// 7. remove the falsy values
+
+// let arr = [null,"divakar",NaN,1,"",-1,false,true,undefined];
+// let newarr = []
+//  for(let i=0;i<arr.length;i++){
+//   if(arr[i]){
+//     newarr[newarr.length]=arr[i]
+//   }
+//  }
+//  console.log(newarr);
+
+
+
            
         
